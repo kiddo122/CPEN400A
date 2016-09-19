@@ -1,0 +1,18 @@
+/* Products Hover Feature */
+
+#product .text{
+position:center;
+visibility:hidden
+}
+
+#product:hover .text{
+background-color: #818181;
+visibility:visible;
+}
+
+#image:hover {
+visibility:visible;
+opacity: 0.4;
+filter: alpha(opacity=40);
+background-color: #000;
+}
