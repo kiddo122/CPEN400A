@@ -10,9 +10,15 @@ background-color: #818181;
 visibility:visible;
 }
 
+#image{
+	height: 60%;
+	width: 60%;
+}
+
 #image:hover {
 visibility:visible;
 opacity: 0.4;
 filter: alpha(opacity=40);
 background-color: #818181;
 }
+
