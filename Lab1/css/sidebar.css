@@ -1,7 +1,7 @@
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 200px; /* 0 width - change this with JavaScript */
+    width: 200px; /* 200px Width */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
@@ -23,19 +23,17 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover{
     color: #f1f1f1;
     background-color: #000;
 }
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+/* Scales down the container class so the elements do not overflow to the right side */
+.container {
+
+    width:100%;
 }
+
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
