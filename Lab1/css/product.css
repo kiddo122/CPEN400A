@@ -1,24 +1,29 @@
 /* Products Hover Feature */
 
-#product .text{
-position:center;
-visibility:hidden
+.product {
+	position: center;
+	height: 350px;
+	margin-bottom: 50px;
 }
 
-#product:hover .text{
-background-color: #818181;
-visibility:visible;
+.product .text {
+	font-size: 30px;
+	font-weight: bold;
+	visibility:hidden;
 }
 
-#image{
+.product:hover .text {
+	background-color: #818181;
+	visibility:visible;
+}
+
+.product img {
+	position: relative;
 	height: 60%;
 	width: 60%;
 }
 
-#image:hover {
-visibility:visible;
-opacity: 0.4;
-filter: alpha(opacity=40);
-background-color: #818181;
+.product:hover {
+	filter: alpha(opacity=40);
+	background-color: #A0A0A0; 
 }
-
